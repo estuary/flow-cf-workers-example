@@ -1,0 +1,6 @@
+---
+collections:
+  estuary/public/examples/flow-github/workflow_runs:
+    schema: workflow_runs.schema.yaml
+    key:
+      - /id

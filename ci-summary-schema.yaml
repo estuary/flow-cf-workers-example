@@ -1,0 +1,36 @@
+type: object
+reduce: { strategy: merge }
+properties:
+  repo:
+    type: string
+    description: The name of the Github repository
+  workflow:
+    type: string
+    description: The name of the Github actions workflow
+  branch:
+    type: string
+    description: The name of the git branch for this workflow run
+  outcome:
+    enum: [success, failure, cancelled, startup_failure]  
+    description: The result of the run  
+  date:
+    type: string
+    format: date
+    description: The starting time of the most recent run  
+
+  totalRuns:
+    type: integer
+    reduce: { strategy: sum }
+    description: The total number of workflow runs
+  totalTimeSeconds:
+    type: integer
+    reduce: { strategy: sum }
+    description: The total number of seconds spent executing the workflow  
+required:
+  - repo
+  - workflow
+  - branch
+  - outcome
+  - date
+  - totalRuns
+  - totalTimeSeconds  
