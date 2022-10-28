@@ -267,7 +267,7 @@ Once our worker code looks good, run `npm run deploy` in order to deploy it to c
 2022-10-28T16:26:54Z activate:2> INFO[0007] update shard                                  id=capture/estuary/public/examples/flow-github/source-github/00000000-00000000 rev=2049858
 2022-10-28T16:26:54Z activate:2> INFO[0007] insert shard                                  id=derivation/estuary/public/examples/flow-github/ci-runs-by-day/00000000-00000000
 ```
-</summary>
+</details>
 
 ### Materialize to Google Sheets
 
