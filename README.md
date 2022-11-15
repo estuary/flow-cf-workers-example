@@ -139,7 +139,7 @@ To publish your Worker to the Internet, run `npm run deploy`
 
     `flowctl catalog draft --name estuary/public/examples/flow-github/workflow_runs` 
     
-    Substitute your own collection name, if you're following along. Be sure to supply the *collection* name (which ends in `workflow_run`), not the capture name. You can verify the full collection name on the Collections tab of the web app.
+    Substitute your own collection name, if you're following along. Be sure to supply the *collection* name (which ends in `workflow_runs`), not the capture name. You can verify the full collection name on the Collections tab of the web app.
 
 4. Run `flowctl draft develop` to pull down the specification into your local directory.
 
