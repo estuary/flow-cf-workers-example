@@ -60,9 +60,9 @@ If you need more clarification, refer to our guides to [create a Data Flow in th
 
 ![Filling in the capture form](images/create-capture-form.png)
 
-4. Once you've got all the fields filled out, click **Discover Endpoint**.
+4. Once you've got all the fields filled out, click **Next**.
 
-5. The connector discovers several collections that you can capture. We're only interested in the `workflow_runs` collections, 
+5. The connector lists several available collections that you can capture. We're only interested in the `workflow_runs` collections, 
 so you can use the Collection Selector to remove the others if you'd like.
 
 6. Click **Save and Publish**.
@@ -333,7 +333,7 @@ If you'd like, add it to your `flow.yaml`, substituting your collection names.
 
 7. Use the Collection Selector to select the derivation you just published. In our case, it's `estuary/public/examples/flow-github/ci-runs-by-day`. Give the output sheet a name, for example, "Run Results."
 
-8.  Click **Discover Endpoint**, then **Save and Publish**.
+8.  Click **Next**, then **Save and Publish**.
 
 9. Your data pipeline should now be fully live! Check your sheet. You should see data start to flow `;)` into it within 30 seconds or so.
 
